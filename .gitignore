@@ -1,0 +1,19 @@
+# Dataset and model artifacts
+WSLA100/wlasl100-new/
+WSLA100/processed_landmarks/
+*.mp4
+*.task
+
+# Generated subsets, pilot outputs, and local environments
+artifacts/
+results/
+outputs/
+subset_index.csv
+subset_index.json
+manifest.json
+extraction_failures.csv
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
