@@ -30,7 +30,7 @@ git init
 git add README.md requirements.txt .gitignore scripts
 git commit -m "Add cloud pilot workflow"
 git branch -M main
-git remote add origin https://github.com/USERNAME/REPOSITORY.git
+git remote add origin https://github.com/Dev-Akuma/wlasl100-cloud-pilot.git
 git push -u origin main
 ```
 
@@ -44,7 +44,7 @@ In a Colab notebook, mount Drive and clone the repository:
 ```python
 from google.colab import drive
 drive.mount("/content/drive")
-!git clone https://github.com/USERNAME/REPOSITORY.git /content/repo
+!git clone https://github.com/Dev-Akuma/wlasl100-cloud-pilot.git /content/repo
 %cd /content/repo
 !pip install -r requirements.txt
 ```
